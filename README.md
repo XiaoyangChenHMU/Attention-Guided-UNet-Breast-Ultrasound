@@ -17,7 +17,7 @@ While the architecture utilizes Attention Gates, I implemented specific tunings 
 ##  Visual Results
 The optimized model effectively suppresses background noise and focuses on the lesion ROI (Region of Interest).
 
-![Segmentation Result](images/result_comparison.png) 
+![Segmentation Result](result_comparison.png) 
 
 ##  Repository Structure
 *   `predict.py`: The main inference script for generating predictions on new ultrasound images.
