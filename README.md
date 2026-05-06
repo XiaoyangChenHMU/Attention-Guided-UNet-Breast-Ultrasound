@@ -1,5 +1,3 @@
-# Attention-Guided-UNet-Breast-Ultrasound
-Optimized Attention-Guided U-Net for breast ultrasound lesion segmentation, achieving 0.80 Mean Dice score through BCE-Dice loss and adaptive learning rate strategies.
 # Attention-Guided U-Net for Breast Ultrasound Segmentation
 
 ##  Project Overview
@@ -20,7 +18,6 @@ While the architecture utilizes Attention Gates, I implemented specific tunings 
 The optimized model effectively suppresses background noise and focuses on the lesion ROI (Region of Interest).
 
 ![Segmentation Result](images/result_comparison.png) 
-> *Note: Please replace the image path above with your uploaded screenshot of the Original vs. Predicted comparison.*
 
 ##  Repository Structure
 *   `predict.py`: The main inference script for generating predictions on new ultrasound images.
